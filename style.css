@@ -1,0 +1,27 @@
+.axis path, .axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+#tooltip {
+    position: absolute;
+    display: none;
+    /*max-width: 40;
+    max-height: 40;*/
+    background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #6F257F;
+    padding: 14px;
+    text-align: center;
+}
+
+g.series rect{
+    
+    box-shadow: 3px 3px 5px 6px #444;
+    /*stroke-width:2px;*/
+    /*stroke:white;*/
+
+    }
